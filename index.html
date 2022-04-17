@@ -1,0 +1,39 @@
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Складочки</title>
+    <link rel="stylesheet" href="styles/ui.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="icon" href="img/groznij.ico">
+</head>
+<body>
+        <!--<h1>Service Unavaible</h1>
+        <hr>
+        <p>HTTP Error 503. The service is unavaible.</p>-->
+    <div class="all">
+        <ul>
+            <li><a href="index.html" style="font-family: Arial;">Домой</a></li>
+            <li><a href="#" style="font-family: Arial;" id="permi">Пользователи</a></li>
+            <li><a href="ghoul.html" style="font-family: Arial;" id="permi">дед инсайд</a></li>
+            <li><a href="no.html" style="font-family: Arial;" id="permi">клубы</a></li>
+            <li class="pointer" style="float:right"><a class="active" href="no.html" style="font-family: Arial;">Профиль</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="main">
+        <h1 style="font-family: Arial;">Складочки play</h1>
+        <p style="font-family: Arial;">Список наших проектов - <a href="https://discord.com/api/oauth2/authorize?client_id=959805288775553147&permissions=8&scope=bot">дискорд бот</a>,<a href="no.html"> телеграм бот</a> и <a href="https://discord.gg/BAHqqDPFMm">дискорд сервер</a></p>
+    </div>
+</body>
+<script>
+    document.querySelector('#permi').onclick = function() {
+            alert('Вы не авторизированы!');
+    }
+</script>
+</html>

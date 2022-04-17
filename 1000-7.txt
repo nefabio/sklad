@@ -1,0 +1,44 @@
+PYTHON {
+    import time
+
+    x = 1000 - 7
+
+    while x > 7:
+        print(f"{x} - 7 = {x-7}")
+        x -= 7
+        time.sleep(0.5)
+}
+JS {
+    for (var i = 1000; i >= -1000 ; i = i - 7 ){
+            document.write('<br>'. $i. '-7'. ' <b>botskij bot</b>' .'<br/>');
+    }
+}
+PHP {
+    <?php
+        $i = 1000;
+
+        while ($i> 0 ){
+            echo "$i - 7 = ".($i-7)."<br/>";
+            $i -= 7;
+        }
+    ?>
+}
+C# {
+    using System;
+
+    namespace ConsoleApp2
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                for (int i = 1000, i > 0; i-=7)
+                {
+                    Console.WriteLine(i + " - 7 = " + (i - 7));
+                    Console.WriteLine("ja uzbek");
+                    System.Threading.Thread.Sleep(500);
+                }
+            }
+        }
+    }
+}
