@@ -1,0 +1,11 @@
+.message {
+    border: 2px solid #A360B5;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.logout {
+    text-align: left;
+    color: #EC6B67;
+}
